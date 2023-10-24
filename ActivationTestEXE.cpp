@@ -10,9 +10,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	char activation_key[256];
 
 	ActivationHandlerQQ(EVENT_SHOW_ACTIVATION, 0, 0, server_response, activation_key);
-	MessageBoxA(NULL, activation_key, "¼¤»îKey", MB_OK);
+	MessageBoxA(NULL, activation_key, "Â¼Â¤Â»Ã®Key", MB_OK);
 
 	ActivationHandlerQQ(EVENT_CHECK_RESPONSE, RESPONSE_ERROR_KEY_NOT_FOUND, 0, server_response, activation_key);
 	return 0;
+True.
 }
 
